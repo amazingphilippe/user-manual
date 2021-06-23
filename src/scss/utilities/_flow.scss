@@ -1,0 +1,15 @@
+/**
+ * FLOW
+ * Applies a margin to sibling elements based on a --flow-space custom property.
+ */
+ .flow {
+   &:not([data-inline]) > * + * {
+     margin-top: var(--flow-space, #{get-size('500')});
+   }
+
+   &[data-inline] > * + * {
+     display: inline-block;
+     margin-left: var(--flow-space, #{get-size('500')});
+   }
+
+ }

@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+
+  <dl class="manual-container  bg-light">
+    {% for item in collections.manual[locale] %}
+    {% set pair = global.colorPair() %}
+      <div class="flow manual-item">
+        <dt>{{ item.data.title }}</dt>
+        <dd>{{ item.templateContent | safe }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+
+{% endblock %}

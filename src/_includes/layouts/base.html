@@ -1,0 +1,56 @@
+{% set assetHash = global.random() %}
+
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{{ site[locale].title }}</title>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.ico" />
+    <style>
+      {% include "css/critical.css" %}
+    </style>
+    <link
+      rel="stylesheet"
+      media="print"
+      href="/fonts/fonts.css?{{ assetHash }}"
+      onload="this.media='all'"
+    />
+  </head>
+  <body>
+    <header class="bg-light">
+      <div class="wrapper flow" data-inline>
+        <svg
+          width="64"
+          height="64"
+          viewBox="0 0 64 64"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="32"
+            cy="32"
+            r="29"
+            fill="#133C88"
+            stroke="#133C88"
+            stroke-width="6"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M32 22C34.7614 22 37 19.7614 37 17C37 14.2386 34.7614 12 32 12C29.2386 12 27 14.2386 27 17C27 19.7614 29.2386 22 32 22ZM29 46V34H27V28H29H35V46H37V52H35H29H27V46H29Z"
+            fill="var(--bg)"
+          />
+        </svg>
+
+        <h1>{{ site[locale].title }}</h1>
+
+        {% include "partials/language_switcher.html" %}
+      </div>
+    </header>
+    <main class="wrapper">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>
