@@ -1,8 +1,8 @@
 ---
-  title: Mes heures et périodes de travail productives
-  displayOrder: 2
+title: Mes heures et périodes de travail productives
+displayOrder: 2
 ---
 
-- I like to work between 7AM and 5PM, when I start depends on the morning I have!
-- I like to get things done in the morning after a good coffee
-- I prefer to discuss and reflect between 11 am and 4 pm, then at midnight when trying to sleep
+- J'aime travailler entre 7 h et 17 h. Je débute ma journée un peu aléatoirement lorsque le moment se présente
+- Je suis productif le matin à l'aide d'un bon café
+- Je préfère réfléchir et discuter entre 11 h et 16 h, puis à minuit alors que je ne souhaite que dormir

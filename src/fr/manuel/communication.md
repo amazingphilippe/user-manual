@@ -1,8 +1,8 @@
 ---
-  title: Le meilleur moyen de me contacter
-  displayOrder: 3
+title: Le meilleur moyen de me contacter
+displayOrder: 3
 ---
 
-- Slack @ in threads, channels or DMs
-- ~~In person~~
-- Comment wherever it makes sense: Figma, Notion, Trello, Google Docs...
+- @ sur des fils, canaux ou conversations Slack
+- ~~En personne~~
+- Un commentaire bien placé: Figma, Notion, Trello, Google Docs...

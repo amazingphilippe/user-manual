@@ -1,8 +1,8 @@
 ---
-  title: Ce dont j'ai besoin
-  displayOrder: 5
+title: Ce dont j'ai besoin
+displayOrder: 5
 ---
 
-- Critiques
-- Working in the open
-- I need people to challenge my work
+- Des critiques
+- Travailler ouvertement
+- Des gens qui mettent au défi mes idées

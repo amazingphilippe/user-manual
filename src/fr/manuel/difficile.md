@@ -1,7 +1,7 @@
 ---
-  title: Ce que je trouve difficile
-  displayOrder: 6
+title: Ce que je trouve difficile
+displayOrder: 6
 ---
 
-- Working alone for long periods of time. I like bouncing ideas back and forth
-- I can secretely be very dramatic, but I'm always focused on resolving difficult situations
+- Travailler seul pendent de longues périodes. J'aime discuter et travailler en équipe
+- Je peux être très dramatique lorsque je suis seul, mais je cherche toujours à résoudre les situations tendues

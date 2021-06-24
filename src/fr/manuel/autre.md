@@ -1,9 +1,9 @@
 ---
-  title: À propos de moi
-  displayOrder: 8
+title: À propos de moi
+displayOrder: 8
 ---
 
-- I live in the Ottawa region in Aylmer
-- I love gardening and spending time outside
-- I love biking, I miss biking everyday to work
-- I cross-country ski a lot in the winter
+- J'habite à Aylmer, près d'Ottawa
+- J'aime bien jardiner et passer du temps à l'extérieur
+- J'adore le vélo, mon trajet quotidien à vélo me manque beaucoup
+- En hiver, je fais du ski de fond

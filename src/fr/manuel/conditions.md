@@ -1,9 +1,9 @@
 ---
-  title: Mes conditions de travail favorable
-  displayOrder: 1
+title: Mes conditions de travail favorable
+displayOrder: 1
 ---
 
-- Working with other disciplines
-- Working with good tools and software
-- Not repeating my work
-- Working not using a desk
+- Travailler directement avec d'autres disciplines
+- Travailler avec de bons outils et de bons logiciels
+- Ne pas répéter mon travail
+- Travailler ailleurs qu'à un bureau
