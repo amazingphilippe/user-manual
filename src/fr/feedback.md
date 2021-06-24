@@ -11,7 +11,7 @@ feedback_form:
     hint: "S'il y plus d'une chose, vous pouvez élaborer."
   - type: textarea
     id: difficult
-    label: "Y'a-t-il quelque chose que je fais qui rend fifficile ou frustrant de travailler avec moi? Si oui, quelle est cette chose?"
+    label: "Y'a-t-il quelque chose que je fais qui rend difficile ou frustrant de travailler avec moi? Si oui, quelle est cette chose?"
     hint: "Soyez honnête! Je ne m'en rend probablement même pas compte, alors en prendre connaissance va m'aider à m'améliorer."
   - type: textarea
     id: cds
