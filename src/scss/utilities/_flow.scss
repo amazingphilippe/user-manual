@@ -8,7 +8,6 @@
    }
 
    &[data-inline] > * + * {
-     display: inline-block;
      margin-left: var(--flow-space, #{get-size('500')});
    }
 

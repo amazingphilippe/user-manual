@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{ site[locale].title }}</title>
+    <meta name="title" content="{{ site[locale].title }}" />
+    <meta name="description" content="{{ site[locale].metaDescription }}" />
     <link rel="shortcut icon" type="image/png" href="/img/favicon.ico" />
     <style>
       {% include "css/critical.css" %}
@@ -44,13 +46,18 @@
           />
         </svg>
 
-        <h1>{{ site[locale].title }}</h1>
+        <h1><a href="/{{locale}}">{{ site[locale].title }}</a></h1>
+
+        <a href="/{{ locale }}/feedback" class="button"
+          >{{ site[locale].feedbackCta }}</a
+        >
 
         {% include "partials/language_switcher.html" %}
       </div>
     </header>
-    <main class="wrapper">
+    <main class="wrapper width-full {% block content_class %}{% endblock %}">
       {% block content %}{% endblock %}
     </main>
+    {% include "partials/footer.html" %}
   </body>
 </html>

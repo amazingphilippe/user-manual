@@ -1,8 +1,10 @@
 {% extends "layouts/base.html" %}
 
+{% block content_class %}fill-vertical{% endblock %}
+
 {% block content %}
 
-  <dl class="manual-container  bg-light">
+  <dl class="manual-container bg-light">
     {% for item in collections.manual[locale] %}
     {% set pair = global.colorPair() %}
       <div class="flow manual-item">

@@ -1,0 +1,26 @@
+{% extends "layouts/base.html" %} {% block content %}
+<div class="feedback-container flow pad-top-800">
+  {{ content | safe }}
+
+  <form
+    class="pad-top-800 flow"
+    name="feedback"
+    action="/{{ locale }}/feedback-success"
+    method="post"
+    data-netlify="true"
+  >
+    {% for field in feedback_form %}
+    <div class="field flow">
+      <label for="{{ field.id }}">{{ field.label }}</label>
+      <p class="field__hint">{{ field.hint}}</p>
+      {% if field.type !== "textarea" %}
+      <input type="{{ field.type }}" id="{{ field.id }}" />
+      {% else %}
+      <textarea id="{{ field.id }}"></textarea>
+      {% endif %}
+    </div>
+    {% endfor %}
+    <button type="submit">{{ feedback_submit }}</button>
+  </form>
+</div>
+{% endblock %}

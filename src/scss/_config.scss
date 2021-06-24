@@ -30,10 +30,15 @@ $gorko-size-scale: (
 /// You can also use them to power borders, fills or shadows, for example.
 ///
 $gorko-colors: (
+
+  //Choisis une couleur pâle, blanc ou presque. Choose a light color, white or similar
   "light": var(--bg, #f1f6f2),
+
+  //Choisis une couleur foncée, noir ou presque. Choose a dark color black or similar
   "dark": var(--color, #012622),
+
+  //Choisis deux couleurs d'accent. Choose two accent colors
   "primary": var(--color, #DE9151),
-  "primary-shade": var(--color, #9A561D),
   "secondary": var(--color, #133C88),
 
 

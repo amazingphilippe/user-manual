@@ -1,4 +1,4 @@
 ---
+  layout: 'layouts/manual.html'
   locale: en
 ---
-Philippe Caron's user manual

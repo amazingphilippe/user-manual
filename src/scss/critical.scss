@@ -4,28 +4,33 @@
 
 // Global styles start
 :root {
-  --flow-space: #{get-size('600')};
+  --flow-space: #{get-size("600")};
+  --stroke-width: 2px;
 }
 
 body {
-  background: get-color('light');
-  color: get-color('dark');
+  background: get-color("light");
+  color: get-color("dark");
   line-height: 1.5;
-  font-size: get-size('500');
+  font-size: get-size("500");
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 
-  @include apply-utility('font', 'base');
+  @include apply-utility("font", "base");
+}
+
+main {
+  flex-grow: 1;
 }
 
 [href]:not([class]) {
   color: currentColor;
-  text-decoration-color: get-color('primary');
+  text-decoration-color: get-color("primary");
 }
 
 :focus {
-  outline: 2px solid get-color('primary');
+  outline: var(--stroke-width) solid get-color("primary");
   outline-offset: 0.25rem;
 }
 
@@ -33,17 +38,17 @@ main:focus {
   outline: none;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-size: get-size("600");
   font-weight: 400;
-  @include apply-utility('font', 'base');
-  @include apply-utility('leading', 'flat');
+  @include apply-utility("font", "base");
+  @include apply-utility("leading", "flat");
+  max-width: 30ch;
 }
 
-
-main {
-  display: flex;
-  flex-grow: 1;
+p {
+  max-width: 60ch;
 }
 
 header {
@@ -64,6 +69,14 @@ header {
   }
 }
 
+.fill-vertical {
+  display: flex;
+  flex-direction: column;
+  > * {
+    flex-grow: 1;
+  }
+}
+
 dl {
   display: flex;
   flex-grow: 1;
@@ -78,26 +91,42 @@ dl {
     padding: 2rem;
     dt {
       font-weight: 700;
-      font-size: get-size('600');
-      @include apply-utility('leading', 'flat');
+      font-size: get-size("600");
+      @include apply-utility("leading", "flat");
     }
     dl {
-
     }
   }
 
-  ul,ol {
+  ul,
+  ol {
     padding-left: 0;
     list-style: none;
     li {
-      margin-bottom: get-size('300');
+      margin-bottom: get-size("300");
     }
   }
-
 }
 
-@import 'utilities/flow';
-@import 'utilities/radius';
-@import 'utilities/site-wrap';
-@import 'utilities/visually-hidden';
-@import 'utilities/wrapper';
+.feedback-container {
+  max-width: 60ch;
+  padding-bottom: 2rem;
+}
+
+form {
+  --flow-space: #{get-size("800")};
+}
+
+footer {
+  padding: 2rem 0;
+  box-shadow: inset 0 1px currentColor;
+}
+
+@import "utilities/flow";
+@import "utilities/radius";
+@import "utilities/site-wrap";
+@import "utilities/visually-hidden";
+@import "utilities/wrapper";
+
+@import "blocks/button";
+@import "blocks/field";
