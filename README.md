@@ -69,7 +69,9 @@ If you check in your finder or file explorer, you'll see that a `dist` folder ju
 2. Drop that `dist` folder right in that drag and drop box
 3. Magic!:tada::sparkles:
 
-If you signed in to Netlify, now is the time to change the site url if you'd like to name it with your name. Completely optional.
+If you signed in to Netlify, here are a few extra steps:
+1. You can change the site url if you'd like to name it with your name. Completely optional.
+2. To receive feedback in your email inbox, you can enable them in **Site settings > Forms > Form notifications**
 
 That's it! You now have an amazing user manual and feedback form site for your amazing colleagues!
 
@@ -142,6 +144,8 @@ Si tu jettes un coup d'oeil dans Finder ou l'exploreur de fichier, tu verras un 
 2. Dépose le dossier `dist` en entier dans la boîte qui dit « drag and drop »
 3. Tada!:tada::sparkles:
 
-Si tu t'es créé un compte Netlify, tu peux changer l'url de ton site pour ton nom. Mais c'est optionel.
+Si tu t'es créé un compte Netlify, voici quelques étapes extra:
+1. Tu peux changer l'url de ton site pour ton nom. Mais c'est optionel.
+2. Pour recevoir le feeback dans tes courriels, ajoute ton courriel sous **Site settings > Forms > Form notifications**
 
 Et voilà! Tu as maintenant un manuel d'utilisateur et un formulaire de feedback pour tes chers collègues!
