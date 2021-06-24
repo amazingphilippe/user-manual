@@ -19,7 +19,11 @@
         id="{{ field.id }}"
       />
       {% else %}
-      <textarea name="{{ field.id }}" id="{{ field.id }}"></textarea>
+      <textarea
+        class="radius"
+        name="{{ field.id }}"
+        id="{{ field.id }}"
+      ></textarea>
       {% endif %}
     </div>
     {% endfor %}
