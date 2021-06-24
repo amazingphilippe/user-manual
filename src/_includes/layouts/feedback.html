@@ -1,7 +1,6 @@
 {% extends "layouts/base.html" %} {% block content %}
 <div class="feedback-container flow pad-top-800">
-  {{ content | safe }}
-
+  {{ content | safe }} {% if feedback_form %}
   <form
     class="pad-top-800 flow"
     name="feedback"
@@ -14,13 +13,18 @@
       <label for="{{ field.id }}">{{ field.label }}</label>
       <p class="field__hint">{{ field.hint}}</p>
       {% if field.type !== "textarea" %}
-      <input type="{{ field.type }}" id="{{ field.id }}" />
+      <input
+        name="{{ field.id }}"
+        type="{{ field.type }}"
+        id="{{ field.id }}"
+      />
       {% else %}
-      <textarea id="{{ field.id }}"></textarea>
+      <textarea name="{{ field.id }}" id="{{ field.id }}"></textarea>
       {% endif %}
     </div>
     {% endfor %}
     <button type="submit">{{ feedback_submit }}</button>
   </form>
+  {% endif %}
 </div>
 {% endblock %}
