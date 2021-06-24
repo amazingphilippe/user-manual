@@ -1,6 +1,6 @@
 # User manual - Manuel d'utilisateur
 
-[En francais](#manuel-utilisateur)
+[En francais](#manuel-dutilisateur)
 
 ## Creating your own
 
@@ -17,7 +17,7 @@ cd user-manual
 npm run start
 ```
 
-Your user manual with **my** info should be visible on [localhost:8080/en]! Keep that tab open and open the whole user-manual folder with a text editor. [Atom](https://atom.io/) is a great free and simple one.
+Your user manual with **my** info should be visible on [localhost:8080/en](http://localhost:8080/en/)! Keep that tab open and open the whole user-manual folder with a text editor. [Atom](https://atom.io/) is a great free and simple one.
 
 ## Your turn now
 
@@ -90,7 +90,7 @@ cd user-manual
 npm run start
 ```
 
-Ton manuel d'utilisateur avec **mes** infos devrait être visible au [localhost:8080/fr]! Garde cet onglet ouvert et ouvre le dossier `user-manual` au complet dans un éditeur de texte. [Atom](https://atom.io/) est gratuit et très sympa.
+Ton manuel d'utilisateur avec **mes** infos devrait être visible au [localhost:8080/fr](http://localhost:8080/fr/) ! Garde cet onglet ouvert et ouvre le dossier `user-manual` au complet dans un éditeur de texte. [Atom](https://atom.io/) est gratuit et très sympa.
 
 ## À toi de jouer!
 
