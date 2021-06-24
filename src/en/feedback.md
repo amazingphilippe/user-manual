@@ -15,7 +15,7 @@ feedback_form:
     hint: "Thanks for the honesty! I probably don't know about this, so the awareness allows me to work on this."
   - type: textarea
     id: cds
-    label: "If you're not a CDS employee, is there anything CDS can do better?"
+    label: "If you're not a Canadian Digital Service employee, is there anything the Canadian Digital Service can do better?"
 feedback_submit: "Submit feedback"
 translationUrl: feedback
 ---
